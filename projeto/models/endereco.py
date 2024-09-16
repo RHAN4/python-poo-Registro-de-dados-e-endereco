@@ -1,4 +1,4 @@
-from models.enums.unidadefederativa import UnidadeFederativa
+from projeto.models.enums.unidadefederativa import UnidadeFederativa
 
 class Endereco:
     def __init__(self, logradouro: str, numero: str, complemento: str,

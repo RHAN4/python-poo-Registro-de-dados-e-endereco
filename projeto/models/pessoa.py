@@ -1,5 +1,5 @@
-from models.enums.generos import Generos
-from models.endereco import Endereco
+from projeto.models.enums.generos import Generos
+from projeto.models.endereco import Endereco
 
 class Pessoa:
     def __init__(self, id: int, nome: str, dataNascimento: str, telefone: str,

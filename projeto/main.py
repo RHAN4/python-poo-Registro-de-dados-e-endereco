@@ -1,7 +1,7 @@
-from models.pessoa import Pessoa
-from models.enums.generos import Generos
-from models.endereco import Endereco
-from models.enums.unidadefederativa import UnidadeFederativa
+from projeto.models.pessoa import Pessoa
+from projeto.models.enums.generos import Generos
+from projeto.models.endereco import Endereco
+from projeto.models.enums.unidadefederativa import UnidadeFederativa
 
 import os
 
