@@ -7,10 +7,8 @@ import os
 
 os.system ("cls || clear")
 
-pessoaUm = Pessoa(4525, "Marta", "14/08/1999", "71988445720", "marta@hotmail.com", 
+pessoaUm = Pessoa(4525, "Marta", "14/08/1999", "(71) 9 8844-5720", "marta@hotmail.com", 
                   Generos.FEMININO, Endereco("Avenida Afonso", "58", "Ao lado do posto", 
                                              "45871-589", "Salvador", UnidadeFederativa.BAHIA))
 
 print(pessoaUm)
-
-
